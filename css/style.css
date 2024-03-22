@@ -1,0 +1,211 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER DIMENSIONS */
+header {
+    width: 100%;
+}
+
+/* FOOTER DIMENSIONS */
+footer {
+    width: 100%;
+    height: 100px;
+}
+
+/* SECTIONS DIMENSIONS */
+.section {
+    width: 100%;
+    height: 600px;
+}
+
+.section2 {
+    width: 100%;
+    height: 1200px;
+}
+
+.nav {
+    width: 1200px;
+    font-size: 20px;
+}
+
+.foot {
+    width: 1200px;
+    height: 70%;
+}
+
+.foot-buttons {
+    font-size: 20px;
+    padding: 5px 8px;
+}
+
+.box1 {
+    width: 50%;
+    height: 80%;
+}
+
+.box2 {
+    width: 65%;
+    height: 80%;
+}
+
+.box3 {
+    width: 65%;
+    height: 90%;
+}
+
+.box4 {
+    width: 60%;
+    height: 100%;
+}
+
+/* UTILITY */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.unstyled-list {
+    list-style-type: none;
+}
+
+.unstyled-list li {
+    display: inline-block;
+}
+
+.unstyled-list li a {
+    color: black;
+    text-decoration: none;
+}
+
+.padding-left {
+    padding-left: 10px;
+}
+
+.padding-right {
+    padding-right: 10px;
+}
+
+.py-10 {
+    padding: 10px 0;
+}
+
+.py-15 {
+    padding: 15px 0;
+}
+
+.py-20 {
+    padding: 20px 0;
+}
+
+.brd-bottom1 {
+    border-bottom: 3px solid lightblue;
+}
+
+.brd-bottom2 {
+    border-bottom: 3px solid grey;
+}
+
+.dashed {
+    border: 2px dashed black;
+}
+
+.dashed-white {
+    border: 2px dashed white;
+}
+
+.col-15 {
+    width: 15%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+/* COLORS */
+.bg-lightgrey {
+    background-color: lightgrey;
+}
+
+.bg-darkgrey {
+    background-color: rgb(65, 65, 65);
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-azure {
+    background-color: rgb(0, 132, 255);
+}
+
+.bg-darkpink {
+    background-color: rgb(252, 127, 148);
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-yellow {
+    background-color: rgb(230, 176, 0);
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-tiffany {
+    background-color: rgb(14, 189, 180);
+}
+
+.bg-lightskyblue {
+    background-color: rgb(135, 250, 235);
+}
