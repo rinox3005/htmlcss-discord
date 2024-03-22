@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: ggsans;
+    src: url(./fonts/gg\ sans\ Medium.ttf);
+}
+
+body {
+    font-family: ggsans;
+}
+
 /* HEADER DIMENSIONS */
 header {
     width: 100%;
@@ -44,7 +53,7 @@ footer {
 
 .box1 {
     width: 50%;
-    height: 80%;
+    height: 500px;
 }
 
 .box2 {
@@ -105,7 +114,7 @@ footer {
 }
 
 .unstyled-list li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -129,8 +138,14 @@ footer {
     padding: 20px 0;
 }
 
-.brd-bottom1 {
-    border-bottom: 3px solid lightblue;
+.px-20 {
+    padding: 0 20px;
+}
+
+.btn-access {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
 }
 
 .brd-bottom2 {
@@ -179,7 +194,7 @@ footer {
 }
 
 .bg-blue {
-    background-color: blue;
+    background-color: #255ee9;
 }
 
 .bg-azure {
@@ -209,3 +224,18 @@ footer {
 .bg-lightskyblue {
     background-color: rgb(135, 250, 235);
 }
+
+.white {
+    color: white;
+}
+
+.font-size-20 {
+    font-size: 18px;
+}
+
+.font-size-5 {
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 600;
