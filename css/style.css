@@ -47,7 +47,7 @@ footer {
 }
 
 .foot {
-    width: 1200px;
+    width: 65%;
     height: 70%;
 }
 
@@ -138,6 +138,10 @@ footer {
     line-height: 60px;
 }
 
+.line-height-footer {
+    line-height: 30px;
+}
+
 .p-1 {
     padding: 40px 40px 10px 40px;
 }
@@ -154,12 +158,20 @@ footer {
     padding-right: 10px;
 }
 
+.padding-right-80 {
+    padding-right: 200px;
+}
+
 .padding-left-65 {
     padding-left: 65px;
 }
 
 .padding-top-20 {
     padding-top: 20px;
+}
+
+.padding-bottom-5 {
+    padding-bottom: 5px;
 }
 
 .py-10 {
@@ -340,6 +352,10 @@ footer {
     font-size: 28px;
 }
 
+.font-size-33 {
+    font-size: 33px;
+}
+
 .font-size-40 {
     font-size: 40px;
 }
@@ -392,4 +408,30 @@ footer {
 .star {
     height: 50px;
     width: 400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.discord-blue {
+    color: #7383c5;
+}
+
+.ita {
+    width: 30px;
+}
+
+.arrow {
+    height: 6px;
+}
+
+.social {
+    height: 25px;
+    padding-right: 12px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.gap {
+    gap: 5px;
 }
