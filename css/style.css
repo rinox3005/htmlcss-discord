@@ -336,3 +336,18 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.bg-wave-grey {
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    filter: brightness(0) saturate(100%) invert(92%) sepia(1%) saturate(15%) hue-rotate(334deg) brightness(95%) contrast(88%);
+}
+
+.bg-wave-rotate {
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    transform: rotate(180deg);
+    filter: brightness(0) saturate(100%) invert(92%) sepia(1%) saturate(15%) hue-rotate(334deg) brightness(95%) contrast(88%);
+}
